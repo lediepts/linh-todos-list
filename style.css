@@ -93,4 +93,32 @@ body {
   color: #999;
 }
 
+.filters {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin: 3rem 0;
+}
+.filters .filter-btn {
+  padding: 1rem 2.5rem;
+  border: 2px solid #a87dda;
+  background-color: #fff;
+  color: #6a1b9a;
+  font-weight: 600;
+  font-size: 1.6rem;
+  border-radius: 3rem;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.filters .filter-btn:hover {
+  background-color: #f3e5f5;
+  color: #4a148c;
+  box-shadow: 0 2px 6px rgba(106, 27, 154, 0.2);
+}
+.filters .filter-btn.active {
+  background-color: #6a1b9a;
+  color: #fff;
+  box-shadow: 0 0 8px rgba(106, 27, 154, 0.3);
+}
+
 /*# sourceMappingURL=style.css.map */
