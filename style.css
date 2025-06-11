@@ -84,6 +84,10 @@ body {
   background: red;
   color: #fff;
 }
+.container .list .card button:disabled {
+  background: #aaa;
+  pointer-events: none;
+}
 .container .list .card.complete p {
   text-decoration: line-through;
   color: #999;

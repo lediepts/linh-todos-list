@@ -92,6 +92,10 @@ body {
           background: red;
           color: #fff;
         }
+        &:disabled {
+          background: #aaa;
+          pointer-events: none;
+        }
       }
       &.complete {
         p {
